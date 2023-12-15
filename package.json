@@ -1,0 +1,26 @@
+{
+  "name": "z-stash-front-v2",
+  "version": "1.0.0",
+  "description": "Z-Stash Inventory is made as per request of the faction \"Fireflies\". This serves to help them and their members in keeping track of where their supplies are stored. These supplies are mainly used for their \"runs\" where they do a wider search of an area for supplies, clearing, or for scouting. Currently they only have written notes where it is prone to being lost or being stolen by an enemy faction. This web app helps to tackle those hardships and provide an easier way to give their people the right direction.",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.0.3"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2"
+  }
+}
